@@ -338,10 +338,36 @@ Testbench Source:
 
 * Testbench.SV
 
-Documentation:
+# Project Documentation
 
-* Interrupt_Controller_RTL_Verification_Specification.pdf
-* Interrupt_Controller_Schematic.pdf
+## RTL Verification Specification
+
+[Interrupt_Controller_RTL_Verification_Specification.pdf](Interrupt_Controller_RTL_Verification_Specification.pdf)
+
+This document contains:
+
+- Project overview
+- Interrupt controller functionality
+- Edge detection modes
+- Verification architecture
+- Generator, Driver, Monitor, Scoreboard
+- Functional coverage plan
+- Verification results
+
+---
+
+## RTL Schematic Document
+
+[Interrupt_Controller_Schematic.pdf](Interrupt_Controller_Schematic.pdf)
+
+This document contains:
+
+- Synthesized RTL schematic
+- Internal logic implementation
+- Register structure
+- Interrupt aggregation logic
+- Edge detection circuitry
+- Output generation logic
 
 Images:
 
@@ -364,6 +390,21 @@ Coverage Achieved:
 98.21%
 
 This indicates that nearly all functional scenarios were exercised during simulation.
+
+Verification Status:
+
+PASS
+
+---
+
+# Results Summary
+
+| Metric                | Result |
+| --------------------- | ------ |
+| Transactions          | 100    |
+| Functional Coverage   | 98.21% |
+| Scoreboard Mismatches | 0      |
+| Verification Status   | PASS   |
 
 ---
 
@@ -391,7 +432,7 @@ The waveform confirms correct DUT behavior.
 
 Simulation output is shown below.
 
-![Simulation Output](Coverage_Output.png)
+![Simulation Output](Output.png)
 
 Results:
 
@@ -400,22 +441,7 @@ Results:
 * Zero scoreboard mismatches
 * Functional coverage achieved
 * All test cases passed successfully
-
-Verification Status:
-
-PASS
-
----
-
-# Results Summary
-
-| Metric                | Result |
-| --------------------- | ------ |
-| Transactions          | 100    |
-| Functional Coverage   | 98.21% |
-| Scoreboard Mismatches | 0      |
-| Verification Status   | PASS   |
-
+  
 ---
 
 # Key Verification Concepts Used
