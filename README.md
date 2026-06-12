@@ -117,7 +117,7 @@ Outputs:
 
 The synthesized RTL schematic of the Interrupt Controller is shown below.
 
-![RTL Schematic](Output.png)
+![RTL Schematic](Schematic.png)
 
 The schematic illustrates:
 
